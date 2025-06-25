@@ -1,0 +1,531 @@
+/* https://www.baidu.com:443/s?wd=天气#footer */
+/* 改变锚点会刷新页面吗？ */
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 60px;
+}
+.header-container{
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    height: 44px;
+    line-height: 22.4px;
+    align-items: center;
+    justify-content: center;
+}
+.header-container-navs{
+    
+}
+.header-container-navs-items{
+    font-size: 20px;
+    color: #333333;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.header-container-navs-items:first-child{
+    margin-left: 0;
+}
+.header-container-navs-items:hover{
+    text-decoration: underline;
+}
+.header-container-input{
+    border-radius: 18px;
+    border:1px solid #2ec1cc
+}
+.header-container-navs-button{
+    width: 90px;
+    font-size: 15px;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 44;
+    border-radius: 60px;
+}
+/* 这里是intro区域 */
+.intro{
+    width: 100%;
+    padding: 26px 60px;
+    background-color: #c1c8f833;
+}
+.intro-container{
+    max-width: 960px;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.intro-container-text{
+    position: absolute;
+    margin-left: 60px;
+}
+.intro-img{
+    width: 580px;
+    height: 560px;
+    margin-left: 320px;
+}
+/* product-title */
+.product-title{
+    position: relative;
+    width: 100%;
+    padding: 26px 60px;
+}
+.margin-top{
+    margin-top: 10px;
+}
+.product-navigation{
+    position: absolute;
+   right: 100px;
+   bottom: 20px;
+}
+/* 横行轮播图通过点击<>向左右轮播 */
+/* 轮播图区域 */
+.scroll {
+    width: 100%;
+    height: 427px;
+    padding: 26px 60px;
+    overflow: hidden; /* 隐藏超出部分 */
+}
+
+.scroll-container {
+    display: flex; /* 使用flex让所有项目排成一行 */
+    width: 2505px;
+    gap: 10px;
+    transition: transform 0.3s ease; /* 平滑滚动效果 */
+}
+
+/* section区域 */
+.section{
+    width: 100%;
+    height: 800px;
+}
+
+/* buy-reason区域 */
+.buy-reason{
+    width: 100%;
+    height: 900px;
+    margin-top: 100px;
+    padding: 93px 67px;
+}
+.buy-reason-container{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+}
+.buy-title{
+    text-align: center;
+}
+.grid-container{
+    position: relative;
+    margin-top: 50px;
+    background-color: #2ec1cc;
+}
+.grid-item1{
+    position: absolute;
+    width: 180px;
+    height: 300px;
+    padding: 23px;
+    left: 0;
+    top: 0;
+    background-image: url(./assets/2.webp);
+}
+.grid-item2{
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    padding: 23px;
+    left: 238px;
+    top: 0;
+    background-image: url(./assets/2.webp);
+}
+.grid-item3{
+    position: absolute;
+    width: 150px;
+    height: 125px;
+    padding: 23px;
+    left: 238px;
+    top: 176px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item4{
+    position: absolute;
+    width: 200px;
+    height: 174px;
+    padding: 23px;
+    left: 448px;
+    top: 0px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item5{
+    position: absolute;
+    width: 200px;
+    height: 174px;
+    padding: 23px;
+    left: 448px;
+    top: 240px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item6{
+    position: absolute;
+    width: 200px;
+    height: 174px;
+    padding: 23px;
+    left: 448px;
+    top: 480px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item7{
+    position: absolute;
+    width: 150px;
+    height: 174px;
+    padding: 23px;
+    right: 0;
+    top: 0px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item8{
+    position: absolute;
+    width: 150px;
+    height: 414px;
+    padding: 23px;
+    right: 0;
+    top: 240px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item9{
+    position: absolute;
+    width: 86px;
+    height: 300px;
+    padding: 23px;
+    left: 0;
+    top: 350px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item10{
+    position: absolute;
+    width: 86px;
+    height: 300px;
+    padding: 23px;
+    left: 150px;
+    top: 350px;
+    background-image: url(./assets/2.webp);
+}
+.grid-item11{
+    position: absolute;
+    width: 86px;
+    height: 300px;
+    padding: 23px;
+    left: 300px;
+    top: 350px;
+    background-image: url(./assets/2.webp);
+}
+/* about区域 */
+.about{
+    width: 100%;
+    height: 940px;
+    position: relative;
+}
+.about-title{
+    text-align: center;
+}
+.about-container{
+    position: relative; 
+    width: 700px;
+    height: 548px;
+    margin-top: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px
+}
+.about-container-items{
+    display: flex;
+    width: 2100px;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+#back2, #next2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 80px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10; 
+    /* //确保按钮在图片上方 */
+}
+#back2 {
+    left: 10px;
+}
+
+#next2 {
+    right: 10px;
+}
+/* people区域 */
+.people{
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.people-title{
+    text-align: center;
+}
+.people-container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.people-container-item1{
+    position: relative;
+    float: left;
+    margin-left: 24%;
+}
+.people-container-item2{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+.people-container-item3{
+    position: relative;
+    float: left;
+    margin-left: 30px;
+}
+.people-btn{
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    background-color:black;
+    color: #FFFFFF;
+}
+/* appstore区域 */
+.appstore{
+    position: relative;
+    width: 100%;
+    height: 840px;
+}
+.appstore-title{
+    text-align: center;
+}
+.appstore-container{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.appstore-img{
+    position: relative;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+}
+.appstore-btn{
+    position: absolute;
+    left: 50%;
+    width: 76px;
+    height: 36px;
+    border-radius: 6px;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+/* cloud区域 */
+.cloud{
+    position: relative;
+    width: 100%;
+    height: 950px;
+}
+.cloud-title{
+    text-align: center;
+}
+.cloud-container{
+    width: 704px;
+    height: 641px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+}
+.cloud-left{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    left: 0;
+}
+.cloud-right{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    right: 0;
+}
+.cloud-left-item{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* nas区域 */
+.nas{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background-image: url(./assets/2.webp);
+}
+.nas-title{
+    text-align: center;
+}
+.nas-container{
+    width: 704px;
+    height: 641px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 20px;
+    transform: translateX(-50%);
+}
+.nas-left{
+    position: absolute;
+    width: 340px;
+    left: 0;
+}
+.nas-right{
+    position: absolute;
+    width: 340px;
+    right: 0;
+}
+.nas-left-title{
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+.nas-right-title{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.nas-left-item{
+    border-radius: 2px;
+    width: 340px;
+    height: 70px;
+    text-align: center;
+    background-image: url(./assets/2.webp);
+}
+/* reviews区域 */
+.reviews{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    padding: 93px;
+    background-color: pink;
+}
+.reviews-title{
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.reviews-container{
+    position: relative;
+    top: 180px;
+}
+.reviews-items{
+    width: 240px;
+    height: 260px;
+    background-color: white;
+    padding: 23px 0;
+    border-radius: 8px;
+    float: left;
+    margin-left: 15px;
+}
+.reviews-items:first-child{
+    margin-left: 0;
+}
+.reviews-header{
+    margin-left: 15px;
+    width: 230px;
+    height: 41px;
+}
+/* hardware区域 */
+.hardware{
+    position: relative;
+    width: 100%;
+    height: 950px;
+    padding: 93px 0;
+}
+.hardware-title{
+    position: relative;
+    width: 700px;
+    height: 40px;
+    left: 30%;
+}
+.hardware-h1{
+    position: relative;
+
+}
+.hardware-btn{
+    width: 76px;
+    height: 36px;
+    float: right;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.hardware-container{
+    position: relative;
+    width: 700px;
+    height: 900px;
+    left: 30%;
+    background-color: #2ec1cc;
+    padding: 76px 42px 76px;
+}
+.hardware-container-header{
+    width: 100%;
+    height: 192px;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+.hardware-container-header-left{
+    position: absolute;
+    left: 15%;
+}
+.hardware-container-header-right{
+    position: absolute;
+    right: 15%;
+}
+.hardware-container-header-content{
+    position: relative;
+    top: 200px;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+/* footer */
+.footer{
+    position: relative;
+    width: 100%;
+    height: 220px;
+    padding: 93px 0;
+}
+.footer-container{
+    position: relative;
+    width: 700px;
+    height: 100px;
+    left: 30%;
+    padding: 76px 42px 76px;
+    border-bottom: 1px solid black;
+}
+.footer-container-item{
+    float: left;
+    margin-left: 180px;
+}
+.footer-container-item:first-child{
+    margin-left: 60px;
+}
+.footer-container-item ul {
+    list-style: none;
+}
