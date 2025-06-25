@@ -135,51 +135,68 @@ export default function LazyCat() {
             <div className="buy-title">
                 <h1>懒猫微服 <a style={{color:'skyblue'}}>购买</a> 理由</h1>
             </div>
-            <div className="grid-container">
-                <div className="grid-item1">
-                    <h1>芯片算力超强劲</h1>
-                    <p>Intel4芯片,最高4.52Ghz</p>
+             <div className="buy-container" >
+    <div className="buy-container-left">
+        <div className="buy-container-left-up">
+            <div className="buy-container-left-up-left">
+                <h3>芯片算力超强劲</h3>
+                <p>wwwwwwwwwwwwwwwwww</p>
+            </div>
+            <div className="buy-container-left-up-right">
+                <div className="buy-container-left-up-right-up">
+                    <h1>机智安全<strong>放心存</strong></h1>
+                    <p style={{fontSize:'11px',color:'#6C6C6C'}}>wwwwwwwwwwwwwwwwwwwwww</p>
                 </div>
-                <div className="grid-item2">
-                    <h2>极智安全 <strong>放心存</strong></h2>
-                    <p>vpn端到端加密,零信任硬件安全</p>
+                <div className="buy-container-left-up-right-down">
+                    <h1>机智安全<strong>放心存</strong></h1>
+                    <p style={{fontSize:'11px',color:'#6C6C6C'}}>wwwwwwwwwwwwwwwwwwwwww</p>
                 </div>
-                <div className="grid-item3">
-                    <h2>私有云界<strong>海底涝</strong></h2>
-                    <p>7*18小时一线工程师技术陪聊</p>
-                </div>
-                <div className="grid-item4">
-                    <h2>超安全内穿透</h2>
-                    <p>穿透无限速,直连不限流量。NAT3</p>
-                </div>
-                <div className="grid-item5">
-                    <h2>跨平台虚拟专网</h2>
-                    <p>穿透无限速,直连不限流量。NAT3</p>
-                </div>
-                <div className="grid-item6">
-                    <h2>果粉专享</h2>
-                    <p>穿透无限速,直连不限流量。NAT3</p>
-                </div>
-                <div className="grid-item7">
-                    <h2>AI+</h2>
-                    <p>穿透无限速,直连不限流量。NAT3</p>
-                </div>
-                <div className="grid-item8">
-                    <h2>赛博朋克小桌搭</h2>
-                    <p>穿透无限速,直连不限流量。NAT3</p>
-                </div>
-                <div className="grid-item9">
-                    <h2>全自动数据备份</h2>
-                    <p>整机一键备份和还原,数据资</p>
-                </div>
-                <div className="grid-item10">
-                    <h2>应用商店绿色安装</h2>
-                    <p>整机一键备份和还原,数据资</p>
-                </div>
-                <div className="grid-item11">
-                    <h2>多种技术都兼容</h2>
-                    <p>整机一键备份和还原,数据资</p>
-                </div>
+            </div>
+        </div>
+        <div className="buy-container-left-down">
+            <div className="item">
+                <h3>全自动</h3>
+                <h3>数据备份</h3>
+                <p>wwwwwwwwww</p>
+            </div>
+            <div className="item">
+                <h3>全自动</h3>
+                <h3>数据备份</h3>
+                <p>wwwwwwwwww</p>
+            </div>
+            <div className="item">
+                <h3>全自动</h3>
+                <h3>数据备份</h3>
+                <p>wwwwwwwwww</p>
+            </div>
+        </div>
+    </div>
+    <div className="buy-container-right">
+        <div className="buy-container-right-left">
+            <div className="liesan">
+                <h3>超安全内网穿透</h3>
+                <p>wwwww</p>
+            </div>
+            <div className="liesan">
+                <h3>超安全内网穿透</h3>
+                <p>wwwww</p>
+            </div>
+            <div className="liesan">
+                <h3>超安全内网穿透</h3>
+                <p>wwwww</p>
+            </div>
+        </div>
+        <div className="buy-container-right-right">
+            <div className="lieer">
+                <h3>AI+</h3>
+                <p>wwwwwww</p>
+            </div>
+            <div className="lieerbig">
+                <h3>赛博朋克</h3>
+                <p>wwwwwww</p>
+            </div>
+        </div>
+    </div>
             </div>
         </div>
             </div>

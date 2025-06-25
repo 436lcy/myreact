@@ -112,117 +112,106 @@
     padding: 93px 67px;
 }
 .buy-reason-container{
-    width: 900px;
+    width: 1200px;
     height: 500px;
     margin: 0 auto;
 }
 .buy-title{
     text-align: center;
 }
-.grid-container{
-    position: relative;
-    margin-top: 50px;
-    background-color: #2ec1cc;
-}
-.grid-item1{
-    position: absolute;
-    width: 180px;
-    height: 300px;
-    padding: 23px;
-    left: 0;
-    top: 0;
-    background-image: url(./assets/2.webp);
-}
-.grid-item2{
-    position: absolute;
-    width: 150px;
-    height: 125px;
-    padding: 23px;
-    left: 238px;
-    top: 0;
-    background-image: url(./assets/2.webp);
-}
-.grid-item3{
-    position: absolute;
-    width: 150px;
-    height: 125px;
-    padding: 23px;
-    left: 238px;
-    top: 176px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item4{
-    position: absolute;
-    width: 200px;
-    height: 174px;
-    padding: 23px;
-    left: 448px;
-    top: 0px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item5{
-    position: absolute;
-    width: 200px;
-    height: 174px;
-    padding: 23px;
-    left: 448px;
-    top: 240px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item6{
-    position: absolute;
-    width: 200px;
-    height: 174px;
-    padding: 23px;
-    left: 448px;
-    top: 480px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item7{
-    position: absolute;
-    width: 150px;
-    height: 174px;
-    padding: 23px;
-    right: 0;
-    top: 0px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item8{
-    position: absolute;
-    width: 150px;
-    height: 414px;
-    padding: 23px;
-    right: 0;
-    top: 240px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item9{
-    position: absolute;
-    width: 86px;
-    height: 300px;
-    padding: 23px;
-    left: 0;
-    top: 350px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item10{
-    position: absolute;
-    width: 86px;
-    height: 300px;
-    padding: 23px;
-    left: 150px;
-    top: 350px;
-    background-image: url(./assets/2.webp);
-}
-.grid-item11{
-    position: absolute;
-    width: 86px;
-    height: 300px;
-    padding: 23px;
-    left: 300px;
-    top: 350px;
-    background-image: url(./assets/2.webp);
-}
+.buy-container{
+            display: flex;
+            margin: 0 auto;
+            width: 1200px;
+            height: 600px;
+            gap: 10px;
+        }
+        .buy-container-left{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: 600px;
+            gap: 10px;
+        }
+          .buy-container-right{
+            display: flex;
+            gap: 10px;
+            width: 50%;
+            height: 600px;
+        }
+        .buy-container-left-up{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            height: 50%;
+        }
+          .buy-container-left-down{
+            display: flex;
+            width: 100%;
+            height: 50%;
+            gap:10px
+        }
+        .buy-container-left-up-left{
+            width: 253px;
+            height: 248px;
+            background-image: url(../src/assets/2.webp);
+            padding: 24px;
+        }
+        .buy-container-left-up-right{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .buy-container-left-up-right-up{
+            width: 254px;
+            height: 156px;
+            padding: 24px;
+            background-color: aliceblue;
+        }
+        .buy-container-left-up-right-down{
+               width: 254px;
+            height: 156px;
+            padding: 24px;
+            background-color: aliceblue;
+        }
+        .item{
+            width: 162px;
+            height: 240px;
+            background-image: url(../src/assets/2.webp);
+            padding: 24px;
+        }
+        .buy-container-right-left{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            width: 50%;
+            height: 100%;
+        }
+          .buy-container-right-right{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 50%;
+            height: 100%;
+        }
+        .liesan{
+            width: 242px;
+            height: 174px;
+            background-image: url(../src/assets/2.webp);
+            padding: 24px;
+        }
+        .lieer{
+            width: 242px;
+            height: 174px;
+            background-image: url(../src/assets/2.webp);
+            padding: 24px;
+        }
+        .lieerbig{
+            width: 242px;
+            height: 356px;
+            background-image: url(../src/assets/2.webp);
+            padding: 24px;
+        }
 /* about区域 */
 .about{
     width: 100%;
