@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRoutes,Link } from 'react-router-dom'
 import routes from '../../routes/routes'
-export default function () {
+export default function Header() {
     const element = useRoutes(routes)
   return (
     <div>
